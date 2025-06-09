@@ -18,9 +18,12 @@ po tem sva zvezala še senzor za temperaturo in vlago
 s tem senzorjem sva imela večje težave
 v dokumentaciji za senzor so bili pini narobe napisani, zato sva rabila dve šolski uri, da sva ugovotila težavo 
 ugotovila sva, ko sva šla iskat pin na youtoube
+
 po rešitvi težav z drugim senzorjem sva šla delat ohišje
 zmerila sva mere lcdja in swica, ki bo prišel na pokrov
 meritve za škatlo- velikost arduinota
 po tem sva zvezala lcd, ki je delal brez težav
 nato sva dodala še rgb ledici
 nisva imela dovolj pinov na arduionotu, zato sva naročila nov lcd i2c vmesnikom
+po tem sva dala 3D printat ohišje
+pokrov od ohišja je prišel malo prevelik, zato sva ga zbrusila
