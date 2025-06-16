@@ -63,3 +63,9 @@ Oranžna: povišana (a še varna) vrednost
 Rdeča: nevarno visoka vrednost CO₂
 
 napravo izklopimo ko prekinemo napetost
+
+komentar:
+senzor nama je dal kar par izzivov ampak z malo pomoči sva jim bila kos, pri tej projektni nalogi sva dobila malo občutka koliko truda in enih živcev je potrebno da tako naprava začne delovati tako kot je treba 
+naju je pa projekt naučil tudi kako efektivno delati s tistim kar imaš na voljo
+sam senzor naju je presenetil saj sva mislila da bojo napake večje 
+zelo sva zadovoljna in ponosna z izdelkom ki ga bova predstavila saj oba veva da je zanj šlo ogromno truda, razmišljanja, skrbi in potrpljenja
