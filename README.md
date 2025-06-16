@@ -1,40 +1,71 @@
-# projekt-senzor
-v šoli moramo narditi diy senzor oz napravo za merjenje
-za izdelavo potrebujemo:
-2 rgb diodi
-arduino uno
+Projekt: Senzor
+V šoli smo dobili nalogo izdelati DIY senzor 
+
+Potrebni materiali:
+2x RGB diodi
+
+Arduino Uno
+
 6x upor
-termistor
-css 811 senzor
 
-css 811 senzor
-najprej sva postavila senzor za CO2 na protobord in pravilno povezala žičke v arduino
-s tem sva imela nekaj težav ,ker nisva vedela kam grejo pini, zato sva pogledala na internet in čez nekaj časa  ugotovula naoako  ter jo popravila
-nato sva napisala kodo za ta senzor in ga testirala
-senzorja najprej ni zaznal, zato sva naložila program na arduino
-sam senzor nima podane absolutne napake 
+Termistor
 
+Senzor CCS811 (merjenje CO₂)
 
-DHT11
-po tem sva zvezala še senzor za temperaturo in vlago
-s tem senzorjem sva imela večje težave
-v dokumentaciji za senzor so bili pini narobe napisani, zato sva rabila dve šolski uri, da sva ugovotila težavo 
-ugotovila sva, ko sva šla iskat pin na youtoube
-senzor ima podano absolutno napako ± 2 stopinji celzija in ±5% za vlago 
+Senzor DHT11 (merjenje temperature in vlage)
 
-po rešitvi težav z drugim senzorjem sva šla delat ohišje
-zmerila sva mere lcdja in swica, ki bo prišel na pokrov
-meritve za škatlo- velikost arduinota
-po tem sva zvezala lcd, ki je delal brez težav
-nato sva dodala še rgb ledici
-nisva imela dovolj pinov na arduionotu, zato sva naročila nov lcd i2c vmesnikom
-po tem sva dala 3D printat ohišje
-pokrov od ohišja je prišel malo prevelik, zato sva ga zbrusila
-nato sva začela vstavljati še ostale komponente v samo ohišje. najprej sva to hotela narediti z perfboardom ampak zaradi stiske s prostorom ni šlo.
-zato sva uporabila tehniko s termoskrčkami in dvolepilnim trakom na senzorju ccs pa je bilo potrebno podalšati nogice saj so na ohišju luknjice preveč narazen senzor pa ima premale nogice.
-arduino sva v škatlo fixirala z dvolepilnim trakom 
-nato sva začela zlagati in vezati komponente v ohišje eno po eno da ni prišlo do zmede, in poskrbela za pregleden " cable management"
-na koncu sva napravo testeriala in ugotovila da dela
+CCS811 – senzor za CO₂
+Najprej sva na protoboardu postavila senzor CCS811 in ga povezala z Arduinom. Pri povezovanju sva imela nekaj težav, saj nisva točno vedela, kam priključiti posamezne pine. Po nekaj iskanja po spletu sva ugotovila napako in jo popravila.
 
-opis delovanja:
-napravo prižgemo z stikalom nato na liqid crystal zaslonu napise zagon sistema po dveh sekundah se senzorja prižgeta in začneta mirit na strneh se tudi prižgejo rgb diode ki 
+Nato sva napisala kodo za senzor in ga testirala. Na začetku senzor ni bil zaznan, zato sva še enkrat naložila program na Arduino. Po tem je deloval pravilno. Senzor sicer nima podane absolutne napake.
+
+DHT11 – senzor za temperaturo in vlago
+Zatem sva priključila še senzor DHT11. Z njim sva imela več težav kot s prvim. V dokumentaciji so bili pini napačno označeni, zato sva potrebovala kar dve šolski uri, da sva ugotovila napako – pomagalo nama je iskanje pravilnega priklopa na YouTubu.
+
+Ta senzor ima podano absolutno napako:
+
+Temperatura: ±2 °C
+
+Vlaga: ±5 %
+
+Izdelava ohišja
+Ko sva rešila vse težave s senzorji, sva začela načrtovati ohišje. Najprej sva izmerila dimenzije LCD-ja in stikala, ki bosta nameščena na pokrov. Ohišje sva prilagodila velikosti Arduina.
+
+LCD zaslon sva priključila brez težav. Nato sva dodala še RGB LED diodi. Ker na Arduinu ni bilo dovolj prostih pinov, sva naročila nov LCD z I2C vmesnikom.
+
+Ko je bilo 3D natisnjeno ohišje pripravljeno, sva ugotovila, da je pokrov malenkost prevelik, zato sva ga pobrusila. Nato sva začela vstavljati preostale komponente. Sprva sva želela uporabiti perfboard, a zaradi prostorske omejitve to ni bilo možno.
+
+Namesto tega sva uporabila termoskrčljive cevi in dvostranski lepilni trak. Pri senzorju CCS811 sva morala podaljšati nogice, ker so bile luknje v ohišju preveč narazen, nogice senzorja pa prekratke.
+
+Arduino sva v škatlo pritrdila z dvostranskim trakom. Nato sva postopoma vgrajevala in povezovala vse komponente, da ne bi prišlo do zmede. Poskrbela sva tudi za urejeno razporeditev kablov ("cable management").
+
+Na koncu sva napravo testirala in ugotovila, da deluje pravilno.
+
+Opis delovanja naprave
+Napravo vključimo s stikalom. Na LCD zaslonu se najprej prikaže napis: "Zagon sistema". Po približno dveh sekundah se aktivirata senzorja (DHT11 in CCS811) ter začneta z meritvami.
+
+Na zaslonu se prikazujejo naslednji podatki:
+
+Temperatura
+
+Vlaga
+
+Vsebnost CO₂ v zraku
+
+Na straneh ohišja svetijo RGB diode, katerih barva prikazuje stanje meritve:
+
+DHT11 (temperatura):
+Zelena: normalna sobna temperatura
+
+Rdeča: previsoka temperatura
+
+Modra: prenizka temperatura
+
+CCS811 (CO₂):
+Zelena: normalna koncentracija CO₂
+
+Oranžna: povišana (a še varna) vrednost
+
+Rdeča: nevarno visoka vrednost CO₂
+
+Napravo izklopimo s pritiskom na isto stikalo.
