@@ -69,7 +69,7 @@ senzor nama je dal kar par izzivov ampak z malo pomoči sva jim bila kos, pri te
 naju je pa projekt naučil tudi kako efektivno delati s tistim kar imaš na voljo
 sam senzor naju je presenetil saj sva mislila da bojo napake večje 
 zelo sva zadovoljna in ponosna z izdelkom ki ga bova predstavila saj oba veva da je zanj šlo ogromno truda, razmišljanja, skrbi in potrpljenja
-
+definitivno bi bila ena od izboljšav ta da bi vgradila boljši senzor temperature in vlage npr. dht22 povezala bi slide switch ot on/off gumb. še ena izboljšava ki bi jo lahko naredila je ta da bi ohišje povečala in notri vgradila ohišje za baterije, da bi bila naprava prenosna.
 
 https://github.com/user-attachments/assets/d09a552e-22ec-4c86-8bd6-c3a6e1fa2cc8 
 
