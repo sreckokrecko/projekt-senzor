@@ -69,3 +69,7 @@ senzor nama je dal kar par izzivov ampak z malo pomoči sva jim bila kos, pri te
 naju je pa projekt naučil tudi kako efektivno delati s tistim kar imaš na voljo
 sam senzor naju je presenetil saj sva mislila da bojo napake večje 
 zelo sva zadovoljna in ponosna z izdelkom ki ga bova predstavila saj oba veva da je zanj šlo ogromno truda, razmišljanja, skrbi in potrpljenja
+
+
+https://github.com/user-attachments/assets/d09a552e-22ec-4c86-8bd6-c3a6e1fa2cc8 
+
