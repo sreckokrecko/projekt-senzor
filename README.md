@@ -73,3 +73,5 @@ zelo sva zadovoljna in ponosna z izdelkom ki ga bova predstavila saj oba veva da
 
 https://github.com/user-attachments/assets/d09a552e-22ec-4c86-8bd6-c3a6e1fa2cc8 
 
+![slika vezja](https://github.com/user-attachments/assets/bc5a9874-81a6-4e32-96f6-004c6a0e6914)
+
